@@ -1,0 +1,27 @@
+# Resources for students.
+#
+# Two ways to add something:
+#   1. Upload a file into  resources/<category-folder>/  -> it appears automatically.
+#      Optionally add an entry below with `file:` to give it a nicer title / description.
+#   2. Add an external link below with `url:`.
+#
+# Categories are shown in the order listed here. A folder under resources/ that is not
+# listed still shows up, titled after the folder name.
+
+categories:
+  - id: discussing
+    title: How to discuss a paper
+    description: What a good discussion looks like, and how to structure yours.
+  - id: examples
+    title: Example discussions
+    description: Slides from past discussions and conference discussions worth imitating.
+  - id: general
+    title: General
+    description: Other material shared by faculty.
+
+items:
+  - category: discussing
+    title: "Resource on discussing papers (SSRN 4223908)"
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4223908
+    description: Recommended reading before your first presentation.
+    added_by: Organizers

@@ -1,0 +1,23 @@
+# General settings for the site. Edit freely; the site rebuilds on every push.
+
+title: Finance PhD Pre-Seminar
+subtitle: Rotman School of Management · University of Toronto
+
+# Defaults applied to every session unless the session overrides them.
+defaults:
+  preseminar:
+    time: "09:30"
+    duration_minutes: 60
+    room: TBA
+  seminar:
+    time: TBA
+    room: TBA
+
+organizers:
+  - name: Nicolas Inostroza
+    email: nicolas.inostroza@rotman.utoronto.ca
+  - name: Filippo Cavaleri
+    email: filippo.cavaleri@rotman.utoronto.ca
+
+# Optional banner shown at the top of the page. Leave empty ("") to hide it.
+announcement: ""

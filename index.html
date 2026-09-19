@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Keep this site out of search engines: it is shared by link only. -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <title>Finance PhD Pre-Seminar</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231e3765'/><text x='16' y='22' font-family='Georgia,serif' font-size='17' font-weight='700' fill='white' text-anchor='middle'>PS</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">PS</span>
+        <div>
+          <div class="brand-title" data-bind="title">Finance PhD Pre-Seminar</div>
+          <div class="brand-sub"><span class="sub-long"><span data-bind="subtitle">Rotman School of Management</span> · </span><span data-bind="term"></span></div>
+        </div>
+      </div>
+      <nav class="tabs" aria-label="Sections">
+        <a href="#next">Next up</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#guidelines">Guidelines</a>
+        <a href="#resources">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="announcement" class="announcement" hidden><div class="wrap"></div></div>
+
+  <main id="main" class="wrap">
+
+    <!-- NEXT SESSION ------------------------------------------------------>
+    <section id="next" class="section" aria-labelledby="next-h">
+      <h2 id="next-h" class="eyebrow">Next pre-seminar</h2>
+      <div id="next-card" class="next-card"><p class="muted">Loading…</p></div>
+    </section>
+
+    <!-- SCHEDULE ---------------------------------------------------------->
+    <section id="schedule" class="section" aria-labelledby="schedule-h">
+      <div class="section-head">
+        <h2 id="schedule-h">Schedule</h2>
+        <a class="btn" href="schedule.ics" download>
+          <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M6 2v2M14 2v2M3 7h14M4 4h12a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          Add to calendar
+        </a>
+      </div>
+      <p class="lede">One PhD student presents a discussion of each speaker's paper; everyone reads the paper beforehand. <span id="pre-defaults"></span></p>
+      <div id="years" class="years" role="group" aria-label="Academic year" hidden></div>
+      <div class="table-wrap">
+        <table class="sched">
+          <thead>
+            <tr><th scope="col">Date</th><th scope="col">Speaker</th><th scope="col">Paper</th><th scope="col">Presenter</th><th scope="col">Materials</th></tr>
+          </thead>
+          <tbody id="session-rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- GUIDELINES -------------------------------------------------------->
+    <section id="guidelines" class="section prose" aria-labelledby="guidelines-h">
+      <h2 id="guidelines-h">Guidelines and Expectations</h2>
+
+      <div class="format">
+        <div class="bar" role="img" aria-label="10 minutes summary, 20 minutes strengths and weaknesses, 15 minutes Q and A">
+          <div class="bar-seg s1" style="flex:10"><strong>Summary</strong><span>up to 10 min</span></div>
+          <div class="bar-seg s2" style="flex:20"><strong>Strengths &amp; weaknesses</strong><span>20 min</span></div>
+          <div class="bar-seg s3" style="flex:15"><strong>Q&amp;A</strong><span>15 min</span></div>
+        </div>
+        <div class="bar-legend">
+          <span>Presentation · 30 min</span>
+          <span>Q&amp;A · 15 min</span>
+        </div>
+      </div>
+
+      <h3>Before the session <span class="who">everyone</span></h3>
+      <ul>
+        <li>We expect all students, presenter and attendees alike, to <strong>read the paper carefully in advance</strong>.</li>
+        <li>The pre-seminar starts at 9:30 a.m. sharp. <strong>Please be on time.</strong> We will record arrivals more than 2 minutes late.</li>
+      </ul>
+
+      <h3>The presentation <span class="who">presenter</span></h3>
+      <ul>
+        <li>Presentations last <strong>30 minutes, followed by 15 minutes of Q&amp;A</strong>, and should follow the structure of a conference discussion. </li>
+        <li> We expect slides to be clear, professional, well-structured, and conceptually correct. </li>
+        <li><strong>Summary (up to 10 minutes):</strong> research question, authors' answer, and the contribution. Everyone should know what the paper's main takeaway is.</li>
+        <li><strong>Literature:</strong> only what is essential to situate the paper, not a full review. It can go at the end if that works better.</li>
+        <li><strong>Strengths and weaknesses (20 minutes):</strong> emphasize one or two major points rather than many minor ones; we prefer <strong>depth over breadth</strong>. We would like to hear your personal opinion: there is no right or wrong.</li>
+        <li>For what makes a good discussion, see for example <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4223908" target="_blank" rel="noopener">this guide (SSRN)</a>.</li>
+      </ul>
+
+      <h3>At the seminar <span class="who">presenter</span></h3>
+      <ul>
+        <li>We ask the presenter to handle the <strong>clicker</strong> and a <strong>bottle of water</strong> for the speaker, and to help them set up their slides.</li>
+      </ul>
+
+      <h3>During the session <span class="who">everyone</span></h3>
+      <ul>
+        <li>We expect everyone to <strong>engage actively</strong> in the discussion. Please refrain from using <strong>laptops or phones</strong> during the presentation.</li>
+        <li>We will keep track of attendance, participation, and the quality of discussions. We will <strong>share it with the faculty</strong> as evidence of engagement.</li>
+      </ul>
+
+      <h3>Faculty</h3>
+      <ul>
+        <li><strong>Nico and Filippo</strong> coordinate the pre-seminar: room booking, scheduling, paper assignment, and logistics.</li>
+        <li>We will invite faculty working in the speaker's field, so that <strong>four to five faculty</strong> rotate through each session.</li>
+        <li>Faculty should help students understand the big picture: the question, why it matters, and what the limitations are.</li>
+        <li> <strong>Coffee and pastries</strong> will be provided.</li>
+      </ul>
+    </section>
+
+    <!-- RESOURCES --------------------------------------------------------->
+    <section id="resources" class="section prose" aria-labelledby="resources-h">
+      <h2 id="resources-h">Resources</h2>
+      <div id="resource-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <strong>Questions?</strong> Contact <span id="contacts">the organizers</span>.
+      </div>
+      <div class="muted small">Shared by link only — please do not post publicly. <span id="built"></span></div>
+    </div>
+  </footer>
+
+  <script src="data/site.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

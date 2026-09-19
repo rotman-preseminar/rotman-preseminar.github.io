@@ -1,0 +1,10 @@
+_site/
+.DS_Store
+__pycache__/
+*.pdf.icloud
+
+# Private, never publish
+EmailOrganization.pdf
+
+# Automatic rebuild: kept locally until the GitHub login has the "workflow" permission
+.github/workflows/

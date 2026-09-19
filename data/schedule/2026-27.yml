@@ -1,0 +1,92 @@
+# Seminars for the 2026-27 academic year. One file per year: for a new year, create
+# data/schedule/2027-28.yml; older years stay on the site under their own tab.
+#
+# One entry per seminar. Order does not matter; the site sorts by date.
+#
+# Required:  date (YYYY-MM-DD), speaker
+# Optional:  affiliation, speaker_url, paper, paper_url, slides_url, coauthors,
+#            presenter (the PhD student discussing the paper),
+#            faculty (list of faculty attending the pre-seminar),
+#            preseminar: {date, time, room}   -> overrides data/site.yml defaults
+#            seminar:    {time, room}
+#            notes, cancelled: true
+#
+# Files: put the paper, discussion slides, etc. in  sessions/<id>/
+# where <id> is the session date, e.g. sessions/2026-10-30/
+# A file whose name contains "slides"/"discussion" gets the Slides button, "paper" the Paper
+# button; any other file gets a button with its own name.
+# Instead of uploading, you can link: paper_url / slides_url.
+#
+# Papers and presenters are TBA until students sign up.
+
+- date: 2026-10-09
+  speaker: Zhiguo He
+  affiliation: Stanford GSB
+  speaker_url: https://zhiguohe.net/
+  presenter: TBA
+
+- date: 2026-10-16
+  speaker: Selale Tuzel
+  affiliation: USC Marshall
+  speaker_url: https://sites.google.com/usc.edu/selale-tuzel/
+  presenter: TBA
+
+- date: 2026-10-23
+  speaker: Song Ma
+  affiliation: Yale SOM
+  speaker_url: https://songma.org/
+  presenter: TBA
+
+- date: 2026-10-30
+  speaker: Jan Bena
+  affiliation: UBC Sauder
+  speaker_url: https://www.janbena.com/
+  presenter: TBA
+
+- date: 2026-11-06
+  speaker: Chenzi Xu
+  affiliation: UC Berkeley
+  speaker_url: https://chenzi-xu.com/
+  presenter: TBA
+
+- date: 2026-12-04
+  speaker: Brendan Daley
+  affiliation: Johns Hopkins
+  speaker_url: https://sites.google.com/site/bd28home/
+  presenter: TBA
+
+- date: 2027-03-05
+  speaker: Max Croce
+  affiliation: Bocconi
+  speaker_url: https://www.unibocconi.it/en/faculty/mariano-massimiliano-croce
+  presenter: TBA
+
+- date: 2027-04-02
+  speaker: Michael Sockin
+  affiliation: UT Austin McCombs
+  speaker_url: https://sites.google.com/site/michaelsockin/
+  presenter: TBA
+
+- date: 2027-04-16
+  speaker: Valentin Haddad
+  affiliation: UCLA Anderson
+  speaker_url: https://sites.google.com/site/valentinhaddadresearch/
+  presenter: TBA
+
+- date: 2027-04-23
+  speaker: Laura Starks
+  affiliation: UT Austin McCombs
+  speaker_url: https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/laura-starks/
+  presenter: TBA
+
+- date: 2027-04-30
+  speaker: Robin Greenwood
+  affiliation: Harvard Business School
+  speaker_url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446
+  presenter: TBA
+
+- date: 2027-05-14
+  speaker: Manju Puri
+  affiliation: Duke Fuqua
+  speaker_url: https://sites.google.com/view/manjupuri/home
+  presenter: TBA
