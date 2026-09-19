@@ -4,7 +4,9 @@ A single-page site for the Rotman finance PhD pre-seminar: schedule, guidelines,
 discussion slides, and resources. It is shared by link only and marked `noindex`, so search
 engines are asked not to list it.
 
-Everything on the page comes from three text files and two folders. You never need to edit HTML.
+**For day-to-day upkeep, see [MAINTENANCE.md](MAINTENANCE.md).** This file explains the whole setup.
+
+Everything on the page comes from three text files and two folders.
 
 | To change…                         | Edit                        |
 |------------------------------------|-----------------------------|
