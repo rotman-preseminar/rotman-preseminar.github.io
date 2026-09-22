@@ -38,5 +38,13 @@ Live page: https://rotman-preseminar.github.io/ · Map of the files: [SITEMAP.md
 
 ## Still to do
 
-- Move the site to a GitHub organization so the address is `https://<org>.github.io/` (create it at https://github.com/account/organizations/new, Free plan).
-- Make the repository private once GitHub Education is approved (apply from campus). Until then, uploaded papers and slides are publicly visible on GitHub.
+- Invite Nico as a second **owner** of the `rotman-preseminar` organization, so the site does not depend
+  on one account: org page → Settings → People → Invite member → then set his role to Owner.
+
+## Notes
+
+- The site moved to the `rotman-preseminar` organization on 22 September 2026.
+- The repository is public, and this is now a settled decision: GitHub Pages does not publish from a
+  private repository on the free organization plan. Uploaded papers and slides are therefore visible to
+  anyone with the link — only post what the speaker is happy to share. The page asks search engines not
+  to index it, but that is not the same as privacy.
