@@ -1,6 +1,6 @@
 # Maintaining the site — quick reference
 
-Live page: https://filippocavaleri.github.io/PreSeminar/ · Map of the files: [SITEMAP.md](SITEMAP.md)
+Live page: https://rotman-preseminar.github.io/ · Map of the files: [SITEMAP.md](SITEMAP.md)
 
 ## Do I need to run the build?
 
