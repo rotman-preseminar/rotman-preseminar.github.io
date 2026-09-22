@@ -17,8 +17,6 @@ Static, no framework. `index.html` + `assets/` (style.css, app.js). See `SITEMAP
 GitHub Pages serves branch `main` directly (no Actions: the gh token lacks `workflow` scope).
 `.github/workflows/pages.yml` exists locally but is git-ignored. Branch `local-history` = pre-publish
 history; never push it. `EmailOrganization.pdf` is private — keep it out of git.
-The old address `filippocavaleri.github.io/PreSeminar/` is a separate one-page repo on Filippo's
-personal account that redirects here; it holds no content and needs no upkeep.
 
 ## Conventions
 - Guidelines text comes from the organizers' email; keep their voice ("we expect", "we would like").
@@ -29,7 +27,8 @@ personal account that redirects here; it holds no content and needs no upkeep.
 
 ## Status (Sep 2026)
 12 speakers loaded for 2026–27 with websites; papers and presenters TBA until students sign up.
-Moved to the `rotman-preseminar` org on 22 Sep 2026; the old personal URL now redirects (see Publishing).
+Moved to the `rotman-preseminar` org on 22 Sep 2026. The old personal URL was never shared, so it was
+retired rather than redirected — `filippocavaleri.github.io/PreSeminar/` is dead and that is intended.
 Pending: invite Nico as a second org owner (Settings → People → Invite → role Owner), enable the
 auto-rebuild via `gh auth refresh -h github.com -s workflow`.
 Dropped: making the repo private. Pages does not publish from private repos on a free org — that needs
