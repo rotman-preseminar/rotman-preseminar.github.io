@@ -210,7 +210,7 @@ def build_resources():
             buttons.append({**file_entry(path), "label": b["label"]})
         category(it["category"])["items"].append({
             "title": it["title"], "url": it["url"],
-            "description": it.get("description"), "added_by": it.get("added_by"),
+            "description": it.get("description"),
             "buttons": buttons,
         })
 
@@ -230,7 +230,6 @@ def build_resources():
             "ext": entry["ext"],
             "size": entry["size"],
             "description": meta.get("description"),
-            "added_by": meta.get("added_by"),
         })
 
     return list(by_id.values())

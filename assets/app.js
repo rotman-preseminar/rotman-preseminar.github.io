@@ -176,7 +176,7 @@
       ${c.description ? `<p class="cat-desc">${esc(c.description)}</p>` : ""}
       <ul>
         ${c.items.map((it) => {
-          const meta = [it.ext && `${it.ext.toUpperCase()} ${sizeLabel(it.size)}`.trim(), it.added_by && `added by ${esc(it.added_by)}`].filter(Boolean);
+          const meta = [it.ext && `${it.ext.toUpperCase()} ${sizeLabel(it.size)}`.trim()].filter(Boolean);
           return `<li><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${it.description ? ` — ${esc(it.description)}` : ""}${meta.length ? ` <span class="meta">(${meta.join(", ")})</span>` : ""}${it.buttons?.length ? `<div class="res-buttons">${it.buttons.map((b) => `<a class="btn" href="${esc(b.path)}" target="_blank" rel="noopener">${esc(b.label)} <span class="meta">${esc(b.ext.toUpperCase())}</span></a>`).join("")}</div>` : ""}</li>`;
         }).join("")}
       </ul>`).join("");
