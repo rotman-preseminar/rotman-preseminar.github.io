@@ -4,6 +4,9 @@
 #   1. Upload a file into  resources/<category-folder>/  -> it appears automatically.
 #      Optionally add an entry below with `file:` to give it a nicer title / description.
 #   2. Add an external link below with `url:`.
+#      A link can carry `buttons:` for files that belong to it (e.g. slides); each button
+#      needs a `label:` and a `file:` in the same category folder. Those files are then
+#      shown only as buttons, not as their own line.
 #
 # Categories are shown in the order listed here. A folder under resources/ that is not
 # listed still shows up, titled after the folder name.
@@ -25,3 +28,13 @@ items:
     url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4223908
     description: Recommended reading before your first presentation.
     added_by: Organizers
+  - category: examples
+    title: "Ting Xu: conference discussions"
+    url: https://sites.google.com/site/tingxu4/discussions
+    description: His collection of discussion slides. The two below are ones he recommends in particular.
+    added_by: Ting Xu
+    buttons:
+      - label: "Example 1"
+        file: Ting_ex1.pdf
+      - label: "Example 2"
+        file: Ting_ex2.pdf

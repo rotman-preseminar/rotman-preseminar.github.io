@@ -28,6 +28,7 @@ Live page: https://rotman-preseminar.github.io/ · Map of the files: [SITEMAP.md
   - Any file name containing *paper* → **Paper** button; *slides* / *discussion* → **Slides** button; anything else gets a button with its own name.
   - The folder name must match the date in the schedule exactly.
 - **Add a resource:** drop a file in `resources/<category>/`, or add a link under `items:` in `data/resources.yml` → build → push.
+  To show files as buttons under a link (e.g. someone's website plus their best slides), list them under `buttons:` on that link — see the Ting Xu entry.
 - **Edit the guidelines:** edit the text between `<li>` and `</li>` in `index.html` (section `<!-- GUIDELINES -->`) → push. Write `&` as `&amp;`.
 - **Change the time, room, organizers or the banner:** `data/site.yml` → build → push.
 - **New academic year:** create `data/schedule/2027-28.yml` → build → push. Earlier years stay online under their own tab.

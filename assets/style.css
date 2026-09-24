@@ -197,6 +197,8 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 /* Resources ---------------------------------------------------------------- */
 .prose .cat-desc { margin: 0 0 6px; color: var(--muted); font-size: 14px; }
 .prose li .meta { font-size: 13px; color: var(--muted); }
+.res-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 4px; }
+.res-buttons .btn { font-size: 13px; padding: 5px 10px; }
 
 /* Footer ------------------------------------------------------------------- */
 .footer { margin-top: 64px; border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 14px; }

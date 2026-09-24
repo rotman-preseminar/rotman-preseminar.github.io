@@ -361,7 +361,8 @@ window.SITE_DATA = {
      "title": "Resource on discussing papers (SSRN 4223908)",
      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4223908",
      "description": "Recommended reading before your first presentation.",
-     "added_by": "Organizers"
+     "added_by": "Organizers",
+     "buttons": []
     }
    ]
   },
@@ -369,7 +370,28 @@ window.SITE_DATA = {
    "id": "examples",
    "title": "Example discussions",
    "description": "Slides from past discussions and conference discussions worth imitating.",
-   "items": []
+   "items": [
+    {
+     "title": "Ting Xu: conference discussions",
+     "url": "https://sites.google.com/site/tingxu4/discussions",
+     "description": "His collection of discussion slides. The two below are ones he recommends in particular.",
+     "added_by": "Ting Xu",
+     "buttons": [
+      {
+       "label": "Example 1",
+       "path": "resources/examples/Ting_ex1.pdf",
+       "ext": "pdf",
+       "size": 2256715
+      },
+      {
+       "label": "Example 2",
+       "path": "resources/examples/Ting_ex2.pdf",
+       "ext": "pdf",
+       "size": 325432
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "general",
@@ -378,5 +400,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-09-19T14:25-04:00"
+ "built": "2026-09-24T16:41-04:00"
 };

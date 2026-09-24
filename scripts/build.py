@@ -200,9 +200,18 @@ def build_resources():
                 continue
             described[path] = it
             continue
+        buttons = []
+        for b in it.get("buttons") or []:
+            path = ROOT / "resources" / it["category"] / str(b.get("file", ""))
+            if not b.get("label") or not path.is_file():
+                fail(f"{where}: each button needs a 'label' and a 'file' that exists in resources/{it['category']}/")
+                continue
+            described[path] = None  # shown as a button, not as its own line
+            buttons.append({**file_entry(path), "label": b["label"]})
         category(it["category"])["items"].append({
             "title": it["title"], "url": it["url"],
             "description": it.get("description"), "added_by": it.get("added_by"),
+            "buttons": buttons,
         })
 
     # Uploaded files: resources/<category>/<file>
@@ -211,7 +220,9 @@ def build_resources():
         if len(rel.parts) < 2:
             fail(f"resources/{rel}: put files inside a category folder, e.g. resources/general/")
             continue
-        meta = described.get(path, {})
+        if path in described and described[path] is None:
+            continue
+        meta = described.get(path) or {}
         entry = file_entry(path)
         category(rel.parts[0])["items"].append({
             "title": meta.get("title") or pretty_name(path.stem),
