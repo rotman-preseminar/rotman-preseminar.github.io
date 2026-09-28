@@ -17,31 +17,31 @@
 # button; any other file gets a button with its own name.
 # Instead of uploading, you can link: paper_url / slides_url.
 #
-# Papers and presenters are TBA until students sign up.
+# Papers are TBA until the speakers send them.
 
 - date: 2026-10-09
   speaker: Zhiguo He
   affiliation: Stanford GSB
   speaker_url: https://zhiguohe.net/
-  presenter: TBA
+  presenter: Zhiyang Luo
 
 - date: 2026-10-16
   speaker: Selale Tuzel
   affiliation: USC Marshall
   speaker_url: https://sites.google.com/usc.edu/selale-tuzel/
-  presenter: TBA
+  presenter: Yukai Wang
 
 - date: 2026-10-23
   speaker: Song Ma
   affiliation: Yale SOM
   speaker_url: https://songma.org/
-  presenter: TBA
+  presenter: Yujia Si
 
 - date: 2026-10-30
   speaker: Jan Bena
   affiliation: UBC Sauder
   speaker_url: https://www.janbena.com/
-  presenter: TBA
+  presenter: Minna Jiang
 
 - date: 2026-11-06
   speaker: Chenzi Xu
@@ -53,40 +53,40 @@
   speaker: Brendan Daley
   affiliation: Johns Hopkins
   speaker_url: https://sites.google.com/site/bd28home/
-  presenter: TBA
+  presenter: Nicolas Harvie
 
 - date: 2027-03-05
   speaker: Max Croce
   affiliation: Bocconi
   speaker_url: https://www.unibocconi.it/en/faculty/mariano-massimiliano-croce
-  presenter: TBA
+  presenter: Yuan Wang
 
 - date: 2027-04-02
   speaker: Michael Sockin
   affiliation: UT Austin McCombs
   speaker_url: https://sites.google.com/site/michaelsockin/
-  presenter: TBA
+  presenter: Xiaopeng Wu
 
 - date: 2027-04-16
   speaker: Valentin Haddad
   affiliation: UCLA Anderson
   speaker_url: https://sites.google.com/site/valentinhaddadresearch/
-  presenter: TBA
+  presenter: Chuleng Qiu
 
 - date: 2027-04-23
   speaker: Laura Starks
   affiliation: UT Austin McCombs
   speaker_url: https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/laura-starks/
-  presenter: TBA
+  presenter: Freda (TBC)
 
 - date: 2027-04-30
   speaker: Robin Greenwood
   affiliation: Harvard Business School
   speaker_url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446
-  presenter: TBA
+  presenter: Nicolas Harvie
 
 - date: 2027-05-14
   speaker: Manju Puri
   affiliation: Duke Fuqua
   speaker_url: https://sites.google.com/view/manjupuri/home
-  presenter: TBA
+  presenter: Yan Cai

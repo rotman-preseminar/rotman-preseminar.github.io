@@ -37,7 +37,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Zhiyang Luo",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -64,7 +64,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Yukai Wang",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -91,7 +91,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Yujia Si",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -118,7 +118,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Minna Jiang",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -172,7 +172,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Nicolas Harvie",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -199,7 +199,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Yuan Wang",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -226,7 +226,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Xiaopeng Wu",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -253,7 +253,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Chuleng Qiu",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -280,7 +280,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Freda (TBC)",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -307,7 +307,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Nicolas Harvie",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -334,7 +334,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Yan Cai",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -398,5 +398,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-09-24T16:43-04:00"
+ "built": "2026-09-27T22:44-04:00"
 };
