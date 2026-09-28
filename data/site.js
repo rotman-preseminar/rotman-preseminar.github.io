@@ -280,7 +280,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "Freda (TBC)",
+   "presenter": "Freda Fang (TBC)",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -398,5 +398,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-09-27T22:44-04:00"
+ "built": "2026-09-27T22:48-04:00"
 };
