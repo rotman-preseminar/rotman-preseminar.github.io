@@ -33,10 +33,10 @@ window.SITE_DATA = {
    "speaker": "Zhiguo He",
    "affiliation": "Stanford GSB",
    "speaker_url": "https://zhiguohe.net/",
-   "paper": null,
+   "paper": "Corporate Liquidity and Debt Buybacks",
    "paper_url": null,
    "slides_url": null,
-   "coauthors": null,
+   "coauthors": "Jessica Shi Li, Qiping Xu",
    "presenter": "Zhiyang Luo",
    "faculty": [],
    "preseminar": {
@@ -51,7 +51,14 @@ window.SITE_DATA = {
    },
    "notes": null,
    "cancelled": false,
-   "files": []
+   "files": [
+    {
+     "label": "Paper",
+     "path": "sessions/2026-10-09/He_Li_Xu_paper.pdf",
+     "ext": "pdf",
+     "size": 2966679
+    }
+   ]
   },
   {
    "id": "2026-10-16",
@@ -398,5 +405,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-09-27T22:48-04:00"
+ "built": "2026-09-29T12:11-04:00"
 };
