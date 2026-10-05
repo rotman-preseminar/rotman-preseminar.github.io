@@ -152,7 +152,7 @@ window.SITE_DATA = {
    "paper_url": null,
    "slides_url": null,
    "coauthors": null,
-   "presenter": "TBA",
+   "presenter": "Amanda Wang",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
@@ -405,5 +405,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-09-29T12:11-04:00"
+ "built": "2026-10-05T15:15-04:00"
 };
