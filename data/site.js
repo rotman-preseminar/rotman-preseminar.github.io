@@ -42,7 +42,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2026-10-09"
    },
    "seminar": {
@@ -405,5 +405,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-05T15:15-04:00"
+ "built": "2026-10-06T11:48-04:00"
 };
