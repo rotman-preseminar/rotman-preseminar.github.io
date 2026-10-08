@@ -67,10 +67,10 @@ window.SITE_DATA = {
    "speaker": "Selale Tuzel",
    "affiliation": "USC Marshall",
    "speaker_url": "https://sites.google.com/usc.edu/selale-tuzel/",
-   "paper": null,
+   "paper": "The Paradox of Opportunity: Socioeconomic Origins of Financial Gender Gaps",
    "paper_url": null,
    "slides_url": null,
-   "coauthors": null,
+   "coauthors": "Athena Tsouderou",
    "presenter": "Yukai Wang",
    "faculty": [],
    "preseminar": {
@@ -85,7 +85,14 @@ window.SITE_DATA = {
    },
    "notes": null,
    "cancelled": false,
-   "files": []
+   "files": [
+    {
+     "label": "Paper",
+     "path": "sessions/2026-10-16/Tsouderou_Tuzel_paper.pdf",
+     "ext": "pdf",
+     "size": 1735345
+    }
+   ]
   },
   {
    "id": "2026-10-23",
@@ -405,5 +412,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-06T11:48-04:00"
+ "built": "2026-10-08T00:07-04:00"
 };
