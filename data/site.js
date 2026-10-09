@@ -56,7 +56,13 @@ window.SITE_DATA = {
      "label": "Paper",
      "path": "sessions/2026-10-09/He_Li_Xu_paper.pdf",
      "ext": "pdf",
-     "size": 2966679
+     "size": 3924431
+    },
+    {
+     "label": "Slides",
+     "path": "sessions/2026-10-09/Preseminar_discussion_20261009.pdf",
+     "ext": "pdf",
+     "size": 1157483
     }
    ]
   },
@@ -412,5 +418,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-08T00:07-04:00"
+ "built": "2026-10-09T14:17-04:00"
 };
