@@ -60,9 +60,9 @@ window.SITE_DATA = {
     },
     {
      "label": "Slides",
-     "path": "sessions/2026-10-09/Preseminar_discussion_20261009.pdf",
+     "path": "sessions/2026-10-09/Preseminar_discussion_newpdf.pdf",
      "ext": "pdf",
-     "size": 1157483
+     "size": 1118768
     }
    ]
   },
@@ -418,5 +418,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-09T14:17-04:00"
+ "built": "2026-10-14T14:39-04:00"
 };
