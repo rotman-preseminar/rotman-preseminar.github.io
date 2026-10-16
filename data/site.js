@@ -93,6 +93,12 @@ window.SITE_DATA = {
    "cancelled": false,
    "files": [
     {
+     "label": "Slides",
+     "path": "sessions/2026-10-16/Pre_seminar_Oct16_2026_YW_discussion.pdf",
+     "ext": "pdf",
+     "size": 470122
+    },
+    {
      "label": "Paper",
      "path": "sessions/2026-10-16/Tsouderou_Tuzel_paper.pdf",
      "ext": "pdf",
@@ -418,5 +424,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-14T14:39-04:00"
+ "built": "2026-10-15T23:11-04:00"
 };
