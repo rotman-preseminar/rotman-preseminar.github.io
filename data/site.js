@@ -6,7 +6,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA"
+    "room": "RT 147"
    },
    "seminar": {
     "time": "TBA",
@@ -113,16 +113,16 @@ window.SITE_DATA = {
    "speaker": "Song Ma",
    "affiliation": "Yale SOM",
    "speaker_url": "https://songma.org/",
-   "paper": null,
+   "paper": "Putting Marginal Back in Tobin's q",
    "paper_url": null,
    "slides_url": null,
-   "coauthors": null,
+   "coauthors": "Allen Hu",
    "presenter": "Yujia Si",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2026-10-23"
    },
    "seminar": {
@@ -131,7 +131,14 @@ window.SITE_DATA = {
    },
    "notes": null,
    "cancelled": false,
-   "files": []
+   "files": [
+    {
+     "label": "Slides",
+     "path": "sessions/2026-10-23/Yujia_preseminar1022_discussion.pdf",
+     "ext": "pdf",
+     "size": 563320
+    }
+   ]
   },
   {
    "id": "2026-10-30",
@@ -140,16 +147,16 @@ window.SITE_DATA = {
    "speaker": "Jan Bena",
    "affiliation": "UBC Sauder",
    "speaker_url": "https://www.janbena.com/",
-   "paper": null,
+   "paper": "Prompted to Start: How Generative AI is Transforming Entrepreneurship",
    "paper_url": null,
    "slides_url": null,
-   "coauthors": null,
+   "coauthors": "Bo Bian, Mariassunta Giannetti",
    "presenter": "Minna Jiang",
    "faculty": [],
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2026-10-30"
    },
    "seminar": {
@@ -158,7 +165,14 @@ window.SITE_DATA = {
    },
    "notes": null,
    "cancelled": false,
-   "files": []
+   "files": [
+    {
+     "label": "Paper",
+     "path": "sessions/2026-10-30/Bena_Bian_Giannetti_paper.pdf",
+     "ext": "pdf",
+     "size": 6322293
+    }
+   ]
   },
   {
    "id": "2026-11-06",
@@ -176,7 +190,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2026-11-06"
    },
    "seminar": {
@@ -203,7 +217,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2026-12-04"
    },
    "seminar": {
@@ -230,7 +244,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2027-03-05"
    },
    "seminar": {
@@ -257,7 +271,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2027-04-02"
    },
    "seminar": {
@@ -284,7 +298,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2027-04-16"
    },
    "seminar": {
@@ -311,7 +325,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2027-04-23"
    },
    "seminar": {
@@ -338,7 +352,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2027-04-30"
    },
    "seminar": {
@@ -365,7 +379,7 @@ window.SITE_DATA = {
    "preseminar": {
     "time": "09:30",
     "duration_minutes": 60,
-    "room": "TBA",
+    "room": "RT 147",
     "date": "2027-05-14"
    },
    "seminar": {
@@ -424,5 +438,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-15T23:13-04:00"
+ "built": "2026-10-24T14:01-04:00"
 };

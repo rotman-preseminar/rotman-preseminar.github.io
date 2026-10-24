@@ -5,6 +5,9 @@ __pycache__/
 
 # Private, never publish
 EmailOrganization.pdf
+# Drafts the speakers asked not to circulate (kept locally, never on the site)
+private/
+Rotman PhD Pre-Seminar.csv*
 
 # Automatic rebuild: kept locally until the GitHub login has the "workflow" permission
 .github/workflows/

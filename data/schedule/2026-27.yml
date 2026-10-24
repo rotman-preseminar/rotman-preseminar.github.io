@@ -26,7 +26,6 @@
   paper: "Corporate Liquidity and Debt Buybacks"
   coauthors: Jessica Shi Li, Qiping Xu
   presenter: Zhiyang Luo
-  preseminar: {room: RT 147}
 
 - date: 2026-10-16
   speaker: Selale Tuzel
@@ -35,18 +34,21 @@
   paper: "The Paradox of Opportunity: Socioeconomic Origins of Financial Gender Gaps"
   coauthors: Athena Tsouderou
   presenter: Yukai Wang
-  preseminar: {room: RT 147}
 
 - date: 2026-10-23
   speaker: Song Ma
   affiliation: Yale SOM
   speaker_url: https://songma.org/
+  paper: "Putting Marginal Back in Tobin's q"
+  coauthors: Allen Hu
   presenter: Yujia Si
 
 - date: 2026-10-30
   speaker: Jan Bena
   affiliation: UBC Sauder
   speaker_url: https://www.janbena.com/
+  paper: "Prompted to Start: How Generative AI is Transforming Entrepreneurship"
+  coauthors: Bo Bian, Mariassunta Giannetti
   presenter: Minna Jiang
 
 - date: 2026-11-06
