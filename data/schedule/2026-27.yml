@@ -50,6 +50,7 @@
   paper: "Prompted to Start: How Generative AI is Transforming Entrepreneurship"
   coauthors: Bo Bian, Mariassunta Giannetti
   presenter: Minna Jiang
+  preseminar: {time: "09:00", duration_minutes: 45}
 
 - date: 2026-11-06
   speaker: Chenzi Xu

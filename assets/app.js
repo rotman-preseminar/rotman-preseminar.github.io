@@ -22,6 +22,16 @@
     return `${((h + 11) % 12) + 1}:${m[2]} ${h < 12 ? "a.m." : "p.m."}`;
   }
 
+  // Start time, plus the end time when the session is not the default length.
+  function preTime(pre) {
+    const d = window.__defaults || {};
+    const m = /^(\d{1,2}):(\d{2})$/.exec(String(pre.time));
+    if (!m || pre.duration_minutes == null || pre.duration_minutes === d.duration_minutes) return time12(pre.time);
+    const end = +m[1] * 60 + +m[2] + +pre.duration_minutes;
+    const hhmm = `${Math.floor(end / 60)}:${String(end % 60).padStart(2, "0")}`;
+    return `${time12(pre.time).replace(/ [ap]\.m\.$/, "")}–${time12(hhmm)}`;
+  }
+
   function countdown(iso) {
     const n = daysUntil(iso);
     if (n === 0) return "Today";
@@ -70,7 +80,7 @@
     const pre = next.preseminar;
     const facts = [
       ["Presenter", isTBA(next.presenter) ? "To be assigned" : esc(next.presenter)],
-      ["Pre-seminar", `${time12(pre.time)} · ${esc(isTBA(pre.room) ? "Room TBA" : pre.room)}`],
+      ["Pre-seminar", `${preTime(pre)} · ${esc(isTBA(pre.room) ? "Room TBA" : pre.room)}`],
     ];
     if (!isTBA(next.seminar.time) || !isTBA(next.seminar.room)) {
       facts.push(["Seminar", `${fmt(next.date, { month: "short", day: "numeric" })} · ${time12(next.seminar.time)}${isTBA(next.seminar.room) ? "" : " · " + esc(next.seminar.room)}`]);
@@ -111,7 +121,7 @@
     const d = window.__defaults || {};
     const preNote = [
       pre.date !== s.date && fmt(pre.date, { weekday: "short", month: "short", day: "numeric" }),
-      pre.time !== d.time && time12(pre.time),
+      (pre.time !== d.time || pre.duration_minutes !== d.duration_minutes) && preTime(pre),
       pre.room !== d.room && !isTBA(pre.room) && esc(pre.room),
     ].filter(Boolean).join(", ");
     const extra = [
@@ -225,9 +235,9 @@
   }
   const sessions = data.sessions || [];
   window.__nextId = (sessions.find((s) => !s.cancelled && s.preseminar.date >= today) || {}).id;
+  window.__defaults = ((data.site || {}).defaults || {}).preseminar || {};
   renderSite(data.site || {}, data.built);
   renderNext(sessions);
-  window.__defaults = ((data.site || {}).defaults || {}).preseminar || {};
   const d = window.__defaults;
   $("#pre-defaults").textContent = `Pre-seminars start at ${time12(d.time)}${isTBA(d.room) ? "" : " in " + d.room} unless noted.`;
   // Open on the academic year of the next session, or the most recent year if the season is over.

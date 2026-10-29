@@ -154,8 +154,8 @@ window.SITE_DATA = {
    "presenter": "Minna Jiang",
    "faculty": [],
    "preseminar": {
-    "time": "09:30",
-    "duration_minutes": 60,
+    "time": "09:00",
+    "duration_minutes": 45,
     "room": "RT 147",
     "date": "2026-10-30"
    },
@@ -438,5 +438,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-24T14:01-04:00"
+ "built": "2026-10-29T16:39-04:00"
 };
