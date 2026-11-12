@@ -181,10 +181,10 @@ window.SITE_DATA = {
    "speaker": "Chenzi Xu",
    "affiliation": "UC Berkeley",
    "speaker_url": "https://chenzi-xu.com/",
-   "paper": null,
+   "paper": "Regulation in Crisis: Bank Failures and Entry Barriers",
    "paper_url": null,
    "slides_url": null,
-   "coauthors": null,
+   "coauthors": "Sarah Quincy",
    "presenter": "Amanda Wang",
    "faculty": [],
    "preseminar": {
@@ -199,7 +199,20 @@ window.SITE_DATA = {
    },
    "notes": null,
    "cancelled": false,
-   "files": []
+   "files": [
+    {
+     "label": "Slides",
+     "path": "sessions/2026-11-06/Amanda_preseminar_discussion.pdf",
+     "ext": "pdf",
+     "size": 1543113
+    },
+    {
+     "label": "Paper",
+     "path": "sessions/2026-11-06/Quincy_Xu_paper.pdf",
+     "ext": "pdf",
+     "size": 2626638
+    }
+   ]
   },
   {
    "id": "2026-12-04",
@@ -438,5 +451,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-10-29T16:39-04:00"
+ "built": "2026-11-12T10:57-05:00"
 };
