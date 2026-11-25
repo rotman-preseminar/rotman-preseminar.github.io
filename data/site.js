@@ -221,10 +221,10 @@ window.SITE_DATA = {
    "speaker": "Brendan Daley",
    "affiliation": "Johns Hopkins",
    "speaker_url": "https://sites.google.com/site/bd28home/",
-   "paper": null,
+   "paper": "The Importance of Being Earnest (in Search Markets)",
    "paper_url": null,
    "slides_url": null,
-   "coauthors": null,
+   "coauthors": "Jacob S. Sagi",
    "presenter": "Nicolas Harvie",
    "faculty": [],
    "preseminar": {
@@ -239,7 +239,14 @@ window.SITE_DATA = {
    },
    "notes": null,
    "cancelled": false,
-   "files": []
+   "files": [
+    {
+     "label": "Paper",
+     "path": "sessions/2026-12-04/Daley_Sagi_paper.pdf",
+     "ext": "pdf",
+     "size": 1152470
+    }
+   ]
   },
   {
    "id": "2027-03-05",
@@ -451,5 +458,5 @@ window.SITE_DATA = {
    "items": []
   }
  ],
- "built": "2026-11-12T10:57-05:00"
+ "built": "2026-11-25T13:32-05:00"
 };
